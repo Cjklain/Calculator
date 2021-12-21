@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: #e3eff3;
+}
+header {
+  font-size: 32px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.container {
+  width: 35vw;
+  height: 40vw;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  min-height: 8vw;
+  background-color: #9ba4b4;
+  font-size: 2.6rem;
+}
+
+.panel-control {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.control {
+  flex: 1 1 8vw;
+  background-color: #cde3eb;
+}
